@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learnix</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1>Learnix</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#teachers">Teachers</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="home-content">
+                <h2>Welcome to <span>Learnix</span></h2>
+                <p>Start learning new skills anytime<br>anywhere, at your own pace<br>with engaging lessons,<br> expert guidance, and a platform<br> designed to help you grow <br>confidently every step of the way.</p>
+           <a href="#about">start now</a>
+            </div>
+            <img src="images-learn/college entrance exam-cuate.svg" alt="">
+        </section>
+       <section class="stats-section flex flex-col sm:flex-row flex-wrap justify-center sm:justify-between gap-4 p-5 bg-[#5c5252] items-center">
+          <div class="one flex flex-col sm:flex-row bg-[var(--secondary-color)] w-full sm:w-[300px] h-auto sm:h-[120px] items-center justify-center p-4">
+                <i class="fa-solid fa-graduation-cap text-[60px] text-[var(--primary-color)]"></i>
+                <div class="content flex flex-col pl-[30px]  text-center">
+                <h2 class=" font-normal text-[30px] text-[var(--bg-color)]">180+</h2>
+                <h3 class="text-[var(--bg-color)]">courses</h3>
+                </div>
+            </div>
+             <div class="two flex flex-col sm:flex-row bg-[var(--secondary-color)] w-full sm:w-[300px] h-auto sm:h-[120px] items-center justify-center p-4">
+
+                <i class="fa-solid fa-user-graduate  text-[60px] text-[var(--primary-color)]"></i>
+                <div class="content font-normal pl-[30px]">
+                <h2 class="font-normal text-[30px] text-[var(--bg-color)]">1600+</h2>
+                <h3 class="text-[var(--bg-color)]">Students Enrolled</h3>
+            </div>
+            </div>     
+           <div class="three flex flex-col sm:flex-row bg-[var(--secondary-color)] w-full sm:w-[300px] h-auto sm:h-[120px] items-center justify-center p-4">
+                <i class="fa-solid fa-chalkboard-user text-[60px] text-[var(--primary-color)]"></i>
+                <div class="content font-normal pl-[30px]">
+                <h2 class="font-normal text-[30px] text-[var(--bg-color)]">160+</h2>
+                <h3 class="text-[var(--bg-color)]">Expert Instructors</h3>
+            </div> 
+            </div>    
+           <div class="four flex flex-col sm:flex-row bg-[var(--secondary-color)] w-full sm:w-[300px] h-auto sm:h-[120px] items-center justify-center p-4">
+               <i class="fa-solid fa-globe text-[60px] text-[var(--primary-color)]"></i>
+                <div class="content  font-normal pl-[30px]">
+                <h2 class="font-normal text-[30px] text-[var(--bg-color)] ">150+</h2>
+                <h3 class="text-[var(--bg-color)]">Countries Reached</h3>
+            </div>
+            </div>
+        </section>
+        
+        <section id="about">
+        <h1>About Us</h1>
+        <hr>
+        <div class="about-all">
+            <img src="images-learn/Online learning-bro.png" alt="">
+            <div class="about-content">
+            <p>We are a passionate online learning platform dedicated to empowering students worldwide<br>with high-quality courses, expert instructors, and flexible learning schedules.  <br>Whether you're looking to improve your career, explore a new field, or learn at your own pace,  <br>we've got you covered with a wide range of topics and personalized learning experiences.</p>
+            </div>
+            </div>
+        </section>
+        <section id="courses">
+             <h1>Our Courses</h1>
+        <hr>
+        <div class="cards">
+            <div class="card">
+                <img src="images-learn/Development-pana.png" alt="">
+                <h2>Web Development</h2>
+                <p>Start your journey in web development by learning HTML, CSS, and JavaScript to build modern, responsive websites.</p>
+            <a href="#Web-Development" id="web">read more</a>
+            </div>
+
+          <div class="card">
+                <img src="images-learn/UI-UX differences-cuate.png" alt="">
+                <h2>UI/UX Design</h2>
+                <p>Discover how to design user-friendly and visually appealing digital experiences by learning the principles of UI and UX design.</p>
+            <a href="#UI-UX-Design" id="ui">read more</a>
+            </div>
+
+              <div class="card">
+                <img src="images-learn/Designer-amico.png" alt="">
+                <h2>Graphic Design</h2>
+                <p>Develop your creativity by designing logos, social media posts, and branding elements that capture attention and communicate clearly.</p>
+           <a href="#Graphic-Design" id="graphic">read more</a>
+            </div>
+
+              <div class="card">
+                <img src="images-learn/Digital tools-bro.png" alt="">
+                <h2>Digital Marketing</h2>
+                <p>Explore how to grow a business online using SEO, social media marketing, email campaigns, and paid advertising strategies.</p>
+            <a href="#Digital-Marketing" id="digital">read more</a>
+            </div>
+            </div>
+        </section>
+    <section id="Web-Development">
+            <div class="title">
+            <i class="fa-solid fa-code"></i><h1>Web Development course</h1>
+            </div>
+            <button class="btn">GO BACK</button>
+            <div class="all-web">
+            <div class="web-content">
+            <h3>This Web Development course is designed for beginners who want to learn how to build modern and responsive websites.</h3>
+        <ul>
+            <li>Perfect for complete beginners.</li>
+            <li>Learn how to build modern and responsive websites.</li>
+            <li>Covers HTML, CSS, JavaScript, and more.</li>
+        </ul>
+        <p><span>Duration:</span>6 hours</p>
+        <p><span>Level:</span> Beginner</p>
+        <p><span>Teacher:</span> Beginner</p>
+        </div>
+        <div class="img">
+            <img src="images-learn/Development-pana.png" alt="">
+</div> 
+        </div>
+        </section>
+
+          <section id="UI-UX-Design">
+            <div class="title">
+            <i class="fa-solid fa-code"></i><h1>UI/UX Design course</h1>
+            </div>
+            <button class="btn">GO BACK</button>
+            <div class="all-web">
+            <div class="web-content">
+           <h3>This UI/UX Design course will teach you how to create user-friendly and visually appealing digital experiences that meet users' needs.</h3>
+        <ul>
+        <li>Understand the difference between UI (User Interface) and UX (User Experience).</li>
+        <li>Learn how to design intuitive, accessible, and engaging user interfaces.</li>
+        <li>Practice with wireframes, prototypes, and real-world design tools like Figma.</li>
+        </ul>
+        <p><span>Duration:</span>4 hours</p>
+        <p><span>Level:</span> Intermediate</p>
+        <p><span>Teacher:</span> Beginner</p>
+        </div>
+       <div class="img">
+            <img src="images-learn/UI-UX differences-cuate.png" alt="">
+</div> 
+        </div>
+        </section>
+
+          <section id="Graphic-Design">
+            <div class="title">
+            <i class="fa-solid fa-code"></i><h1>Graphic Design course</h1>
+            </div>
+            <button class="btn">GO BACK</button>
+            <div class="all-web">
+            <div class="web-content">
+            <h3>This Graphic Design course helps you master the principles of design and develop the skills to create stunning visual content.</h3>
+        <ul>
+        <li>Learn the fundamentals of visual design, color theory, and typography.</li>
+        <li>Master popular design tools like Adobe Photoshop, Illustrator, and Canva.</li>
+        <li>Create real projects like logos, posters, social media graphics, and more.</li>
+        </ul>
+        <p><span>Duration:</span>3 hours</p>
+        <p><span>Level:</span> Beginner</p>
+        <p><span>Teacher:</span> Beginner</p>
+        </div>
+        <div class="img">
+            <img src="images-learn/Designer-amico.png" alt="">
+</div> 
+        </div>
+        </section>
+
+          <section id="Digital-Marketing">
+            <div class="title">
+            <i class="fa-solid fa-code"></i><h1>Digital Marketing course</h1>
+            </div>
+            <button class="btn">GO BACK</button>
+            <div class="all-web">
+            <div class="web-content">
+            <h3>This Digital Marketing course introduces you to the tools and strategies used to grow businesses online and reach the right audience effectively.</h3>
+        <ul>
+        <li>Understand the basics of SEO, social media marketing, and email campaigns.</li>
+        <li>Learn how to create engaging content that attracts and converts users.</li>
+        <li>Use real tools like Google Analytics, Facebook Ads, and more.</li>
+        </ul>
+
+        <p><span>Duration:</span> 8 hours</p>
+        <p><span>Level:</span> Intermediate</p>
+        <p><span>Teacher:</span> Ahmed Hassan</p>
+
+        </div>
+        <div class="img">
+            <img src="images-learn/Digital tools-bro.png" alt="">
+</div> 
+        </div>
+        </section>
+
+        <section id="teachers">
+            <h1>Our Instructors</h1>
+            <hr>
+            <div class="cards">
+                <div class="card">
+                    <div class="details">
+                Digital Marketing teacher
+                </div>
+                <img src="images-learn/male.jpg" alt="">
+                <h2>William Ethan</h2>
+            </div>
+              <div class="card">
+                <div class="details">
+                Graphic Design teacher
+                </div>
+                <img src="images-learn/man2.jpg" alt="">
+                <h2>Logan Miles</h2>
+            </div>
+              <div class="card">
+                <div class="details">
+                UI & UX teacher
+                </div>
+                <img src="images-learn/man3.jpeg" alt="">
+                <h2>Aiden Leo</h2>
+            </div>
+              <div class="card">
+                 <div class="details">
+                Web Development teacher 
+                </div>
+                <img src="images-learn/man4.jpg" alt="">
+                <h2>Jack Caleb</h2>
+            </div>
+    </div>
+        </section>
+        <section id="reviews">
+            <h1>OUR STUDENTS REVIEWS</h1>
+            <hr>
+            <div class="cards">
+                <div class="card">
+                <span class="star">★★★★★★</span>
+                <p>This course exceeded my expectations. Everything was explained clearly and practically.</p>
+                <h3>Daniel King</h3>
+                </div>
+                <div class="card">
+                <span class="star">★★★★★★</span>
+                <p>The teacher was very supportive and made learning fun and engaging. They explained every concept clearly.</p>
+                <h3>Lily Green</h3>
+                </div>
+                <div class="card">
+                <span class="star">★★★★★★</span>
+                <p>I had no experience before, but now I can build full websites on my own! The course made everything easy to understand.</p>
+                <h3>Ella Scott</h3>
+                </div>
+                <div class="card">
+                <span class="star">★★★★★★</span>
+                <p>Everything was well-organized and the content was very up-to-date.</p>
+                <h3>Liam Anderson</h3>
+                </div>
+                <div class="card">
+                <span class="star">★★★★★★</span>
+                <p>One of the best online learning experiences I've ever had.</p>
+                <h3>James Taylor</h3>
+                </div>
+                <div class="card">
+                <span class="star">★★★★★★</span>
+                <p>The projects helped me understand the lessons better and gain confidence.</p>
+                <h3>Emma Johnson</h3>
+            </div>
+            </div>
+            </section>
+             <section id="contact">
+          <h1>CONTACT US</h1>
+          <hr>
+        <div class="contact-info">
+            <div class="contact-contents">
+                <p><i class="fa-solid fa-phone"></i>phone: +20 111222333</p>
+                <p><i class="fa-solid fa-envelope"></i>Email: info@Learnix.com</p>
+                <p><i class="fa-solid fa-location-dot"></i>Address: New Cairo, Egypt</p>
+            <h3>Follow Us</h3>
+            <div class="contact-content">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-telegram"></i></a>    
+            </div>
+            </div>
+            <div class="form">
+            <h3>START NOW</h3>
+            <form action="https://formsubmit.co/8d8ed796aff26336fca2b4939357054f" method="POST">
+            <input type="text" name="name" id="name" placeholder="Your Name" required>
+            <input type="email" name="email" id="email" placeholder="Your Email" required>
+            <textarea name="messege" id="message" placeholder="Your Message" rows="15" required></textarea>
+              <button type="submit" class="btn-submit">SUBMIT</button>
+              </form>
+              </div>
+              </div>
+    </section>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
