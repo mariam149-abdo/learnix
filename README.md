@@ -6,7 +6,7 @@ Welcome to **Learnix** – a modern, responsive web platform designed to make on
 
 ## Live Demo
 
-[View Website](https://mariam149-abdo.github.io/quran/)
+[View Website](https://mariam149-abdo.github.io/learnix/)
 
 ---
 
