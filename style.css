@@ -536,8 +536,8 @@ ul {
     color:var(--primary-color);
 }
 @media (max-width:1300px){
-header nav ul{
-    display:none;
+header nav ul  li a{
+    padding:10px;
 }
 #home p{
     font-size: 20px;
@@ -575,8 +575,12 @@ header nav ul{
 }
 }
 @media (max-width:600px){
+header nav ul{
+    display:none;
+}
 #menu-icon i{
     display: flex;
+    margin-right:10px;
 }
 #home{
     display:flex;
